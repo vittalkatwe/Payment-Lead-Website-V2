@@ -67,7 +67,7 @@ function App() {
         },
         body: JSON.stringify({
           amount: formData.amount,
-          name: formData.name,
+          name: formData.name + "- v2",
           email: formData.email,
           phone: formData.phone
         })
