@@ -12,7 +12,7 @@ function App() {
     name: '',
     email: '',
     phone: '',
-    amount: 299
+    amount: 199
   });
   const [paymentStatus, setPaymentStatus] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -133,7 +133,7 @@ function App() {
           }
         },
         prefill: {
-          name: formData.name + "- v2",
+          name: formData.name,
           email: formData.email,
           contact: formData.phone
         },
@@ -423,7 +423,7 @@ function App() {
                 </span>
               </div>
               <span style={{ fontSize: '15px', color: '#333', fontWeight: '500' }}>
-                299.00
+                199.00
               </span>
             </div>
 
@@ -438,7 +438,7 @@ function App() {
               color: '#333'
             }}>
               <span>Total</span>
-              <span>₹299</span>
+              <span>₹199</span>
             </div>
 
             <button
@@ -616,7 +616,7 @@ function App() {
                 name: '',
                 email: '',
                 phone: '',
-                amount: 299
+                amount: 199
               });
             }}
             style={{
